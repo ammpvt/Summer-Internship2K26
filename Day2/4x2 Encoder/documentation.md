@@ -16,4 +16,5 @@ $$Y_0 = D_1 + D_3$$
 
 ## 📊 Simulation Results
 * **Status:** Passed Behavioral Simulation.
-* **Waveform:** <img width="233" height="382" alt="Screenshot 2026-06-09 200734" src="https://github.com/user-attachments/assets/be9e40c9-0c43-4fa3-98fc-f6285bef3573" />
+* **Waveform:** <img width="1082" height="747" alt="Screenshot 2026-06-09 214834" src="https://github.com/user-attachments/assets/01381364-8d55-4a5e-961c-b74a247ef083" />
+
