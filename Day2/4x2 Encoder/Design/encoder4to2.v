@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 09.06.2026 10:47:17
+// Create Date: 09.06.2026 10:35:06
 // Design Name: 
-// Module Name: encoder4to2
+// Module Name: Encoder_4by2
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,16 +20,19 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module encoder4to2(
-input [3:0]d,output reg [1:0]b
+module Encoder_4by2(
+    input [3:0] d,
+    output reg [1:0] b
     );
-    always@(*)
-        begin
+
+    always @(*) begin
         case(d)
-            0001:b=2'b00;
-            0010:b=2'b00;
-            0100:b=2'b00;
-            1000:b=2'b00;
+            4'b0001: b = 2'b00; 
+            4'b0010: b = 2'b01;
+            4'b0100: b = 2'b10;
+            4'b1000: b = 2'b11;
+            default: b = 2'b00; 
         endcase
-        end
+    end
+    
 endmodule
