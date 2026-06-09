@@ -23,7 +23,7 @@
 module ripple_tb();
 reg  [3:0]a_tb;
 reg  [3:0]b_tb;
-reg [3:0]cin_tb;
+reg cin_tb;
 wire [3:0]s_tb;
 wire Carry_tb;
 ripplecarry4bit dut(a_tb,b_tb,cin_tb,s_tb,Carry_tb);
