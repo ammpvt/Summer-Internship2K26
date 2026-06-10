@@ -42,7 +42,7 @@ When tracking a byte from the initial `p_in` to the final `p_out`, the system ex
 2. **Clock 2 (FIFO + FSM IDLE):** The FIFO stores the data, and the FSM acknowledges the `empty` flag dropping.
 3. **Clock 3 (FSM DELAY):** The FSM paces the output through its wait states before finally latching the result to `p_out`.
 
-*(Note: Prior bugs regarding a 6-clock lag were resolved by ensuring the Face Detection Module properly respects the system reset signal, eliminating the insertion of initial garbage bytes).*
+
 
 ---
 
@@ -50,7 +50,11 @@ When tracking a byte from the initial `p_in` to the final `p_out`, the system ex
 
 The pipeline has been verified using a comprehensive testbench (`topmodule_tb.v`), validating both standard throughput and full-backpressure behaviors.
 
-### Simulation Waveform
-*(Attach or paste the exported Vivado simulation waveform image below)*
+## 6. Reports
 
-![Simulation Waveform Placeholder](path/to/your/simulation_waveform.png)
+<img width="1272" height="155" alt="Screenshot 2026-06-10 212344" src="https://github.com/user-attachments/assets/4f920f5e-c2b0-4e99-832c-014387b40fb3" />
+
+### Simulation Waveform
+
+<img width="1565" height="733" alt="Screenshot 2026-06-10 212027" src="https://github.com/user-attachments/assets/867afee2-7018-4b77-baf7-806e5334f224" />
+
