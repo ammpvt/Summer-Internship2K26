@@ -38,6 +38,6 @@ You can simulate this design using industry-standard EDA tools such as **AMD Viv
 
 Below is the verification waveform showcasing the active-low reset initialization, consecutive synchronous write operations, and subsequent synchronous read-back cycles matching the testbench configuration.
 
-![Simulation Waveform](path_to_your_waveform_screenshot.png)
 
-> **Note:** *To display your actual waveform here, upload your screenshot (e.g., `.png` or `.jpg`) to your repository workspace, replace `path_to_your_waveform_screenshot.png` with the actual filename, and commit the changes.*
+<img width="1547" height="775" alt="Screenshot 2026-06-11 152847" src="https://github.com/user-attachments/assets/56d90f71-9770-4f55-9cd8-a308b68bedf9" />
+
