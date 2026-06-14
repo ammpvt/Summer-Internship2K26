@@ -1,4 +1,4 @@
-# Day : FIFO Verification using SystemVerilog Interfaces
+# FIFO Verification using SystemVerilog Interfaces
 
 ## 📌 Overview
 Today's assignment focuses on modern hardware verification practices using **SystemVerilog**. The primary objective was to transition away from traditional, messy Verilog testbench connections and implement a clean, structured verification environment using **SystemVerilog Interfaces**.
@@ -18,8 +18,8 @@ For this assignment, the testbench was completely rewritten in SystemVerilog to 
 
 To avoid redundancy, this task utilizes the exact same FIFO hardware design previously implemented. 
 
-* **FIFO Design File:** Already uploaded and located at:
-  `Day3/Face_detection_project/Design/FIFO.v`
+* **FIFO Design File:** Already uploaded and available here: 
+  [Day3/Face_detection_project/Design/FIFO.v](./Day3/Face_detection_project/Design/FIFO.v)
 * **New Testbench File:** `fifo_tb_inf.sv` (Contains both the `interface fifo()` definition and the top-level testbench module `fifo_tb_inf`).
 
 ---
@@ -39,6 +39,6 @@ The SystemVerilog testbench executes a linear, step-by-step verification scenari
 
 The behavioral simulation was successfully executed using **Vivado Simulator (XSim)**, running precisely to completion at `300 ns`. Below is the verified waveform capturing data transitions, clock cycles, and flag triggers handled through the interface wrapper:
 
-![FIFO Interface Simulation Waveform](YOUR_IMAGE_LINK_HERE)
+<img width="1547" height="783" alt="Screenshot 2026-06-14 171215" src="https://github.com/user-attachments/assets/4ff71bb5-e79c-4933-ad14-544a68fd9d38" />
 
-*(Note: To view these lines in your own Vivado environment, open a New Waveform Configuration, navigate to the Scope panel, and add the `inf` interface object directly to your wave window).*
+
